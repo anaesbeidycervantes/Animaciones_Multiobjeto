@@ -17,8 +17,8 @@ class Circle {
     this.text = text;
     this.backcolor = backcolor;
     this.speed = speed;
-    this.dx = 0.175 * this.speed;
-    this.dy = 0.175 * this.speed;
+    this.dx = 0.0175 * this.speed;
+    this.dy = 0.0175 * this.speed;
   }
 
   draw(context) {
